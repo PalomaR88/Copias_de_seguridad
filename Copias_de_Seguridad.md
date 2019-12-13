@@ -12,7 +12,7 @@ Para guardar los datos de una organización hay que establecer una estrategia qu
 ### 1.1. ¿Qué?
 Lo que se pueda recoger de otra fuente no se guarda. Podríamos dividir en dos partes:
 #### Datos: 
-- /home (o directorio del usuario de Windows: Users\)) -> esto es muy grande, luego lo que se suele hacer es habilitar un directorio específico donde guardar los documentos importantes del usuario.
+- /home (o directorio del usuario de Windows: Users\\) -> esto es muy grande, luego lo que se suele hacer es habilitar un directorio específico donde guardar los documentos importantes del usuario.
 - /var/lib -> no completo, sino los datos de la base o bases de datos que se guardan aquí. Por ejemplo: /var/lib/ldap.
 - /var/www
 - logs
