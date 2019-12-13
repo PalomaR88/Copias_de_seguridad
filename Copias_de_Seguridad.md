@@ -6,21 +6,22 @@ Formas que ayudan en la pérdida de datos:
 La suma de ambas es la forma correcta. 
 
 
-## Interrogantes para establecer las copias de seguridad
+## 1. Interrogantes para establecer las copias de seguridad
 Para guardar los datos de una organización hay que establecer una estrategia que guarde cada cierto tiempo y determinados documentos, porque no todo puede guardarse.
 
-### ¿Qué?
+### 1.1. ¿Qué?
 Lo que se pueda recoger de otra fuente no se guarda. Podríamos dividir en dos partes:
-**Datos:** 
+#### Datos: 
 - /home (o directorio del usuario de Windows) -> esto es muy grande, luego lo que se suele hacer es habilitar un directorio específico donde guardar los documentos importantes del usuario.
 - /var/lib -> no completo, sino los datos de la base o bases de datos que se guardan aquí. Por ejemplo: /var/lib/ldap.
 - /var/www
 - logs
 
-**Configuración**
+#### Configuración:
 
-### ¿Cómo?
+### 1.2. ¿Cómo?
 
-### ¿Cuándo?
+### 1.3. ¿Cuándo?
 
-### ¿Dónde? 
+### 1.4. ¿Dónde? 
+
